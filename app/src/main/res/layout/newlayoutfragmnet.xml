@@ -1,0 +1,225 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/vbg"
+                tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/bagladiView"
+        android:background="@drawable/bdegill"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Baglanti Basarisiz"
+        android:id="@+id/bagladiIDtxt"
+        android:gravity="center"
+        android:textColor="#CC0000"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/bagladiView"
+        android:layout_toEndOf="@+id/bagladiView"
+        android:layout_alignBottom="@+id/bagladiView"/>
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/outID"
+        android:background="@drawable/exit"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="5dp"/>
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/mTouchButton"
+        android:background="@drawable/bir"
+        android:layout_marginTop="140dp"
+        />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/iki"
+        android:id="@+id/btn2"
+        android:layout_marginTop="195dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/uc"
+        android:id="@+id/btn1"
+        android:layout_marginTop="250dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnN"
+        android:background="@drawable/nokta"
+        android:layout_marginTop="305dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnaltsol"
+        android:background="@drawable/down"
+        android:layout_marginTop="360dp"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/reklemlogo"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="480dp"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnortaust"
+        android:background="@drawable/up"
+        android:layout_below="@+id/bagladiIDtxt"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_toEndOf="@+id/imageView"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/up"
+        android:id="@+id/g1solyukari"
+        android:layout_below="@+id/btnortaust"
+        android:layout_alignLeft="@+id/btnc"
+        android:layout_alignStart="@+id/btnc"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/up"
+        android:id="@+id/g1sagyukari"
+        android:layout_alignTop="@+id/g1solyukari"
+        android:layout_toRightOf="@+id/btnortaust"
+        android:layout_toEndOf="@+id/btnortaust"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/g1solalt"
+        android:background="@drawable/down"
+        android:layout_above="@+id/btna"
+        android:layout_alignLeft="@+id/g1solyukari"
+        android:layout_alignStart="@+id/g1solyukari"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/down"
+        android:id="@+id/g1ssagalt"
+        android:layout_above="@+id/btna"
+        android:layout_toRightOf="@+id/btnortaust"
+        android:layout_toEndOf="@+id/btnortaust"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btna"
+        android:background="@drawable/down"
+        android:layout_alignTop="@+id/btn2"
+        android:layout_toLeftOf="@+id/g1ssagalt"
+        android:layout_toStartOf="@+id/g1ssagalt"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/g1alt"
+        android:background="@drawable/up"
+        android:layout_alignTop="@+id/btn1"
+        android:layout_toLeftOf="@+id/g1ssagalt"
+        android:layout_toStartOf="@+id/g1ssagalt"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnc"
+        android:background="@drawable/up"
+        android:layout_below="@+id/g1alt"
+        android:layout_toLeftOf="@+id/g1alt"
+        android:layout_toStartOf="@+id/g1alt"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/up"
+        android:id="@+id/btnb"
+        android:layout_below="@+id/g1alt"
+        android:layout_alignLeft="@+id/g1ssagalt"
+        android:layout_alignStart="@+id/g1ssagalt"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnf"
+        android:background="@drawable/down"
+        android:layout_above="@+id/btne"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnd"
+        android:background="@drawable/down"
+        android:layout_alignTop="@+id/btnaltsol"
+        android:layout_alignLeft="@+id/btnb"
+        android:layout_alignStart="@+id/btnb"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/btne"
+        android:background="@drawable/down"
+        android:layout_below="@+id/btnd"
+        android:layout_toLeftOf="@+id/btnd"
+        android:layout_toStartOf="@+id/btnd"/>
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/taraBT"
+        android:background="@drawable/bticon"
+        android:layout_above="@+id/g1sagyukari"
+        android:layout_alignLeft="@+id/outID"
+        android:layout_alignStart="@+id/outID"/>
+
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/soruID"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="95dp"
+        android:background="@drawable/isaret"
+        />
+
+
+</RelativeLayout>
